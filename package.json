@@ -1,0 +1,14 @@
+{
+  "name": "email-service-apex",
+  "version": "1.0.0",
+  "description": "Servicio de correo Node.js para APEX",
+  "main": "seng-mail.js",
+  "scripts": {
+    "start": "node seng-mail.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.6",
+    "require": "^2.4.20"
+  }
+}
