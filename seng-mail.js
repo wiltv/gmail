@@ -1,7 +1,7 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
 const app = express();
-const port = 3000; 
+const port = process.env.PORT || 3000; 
 
 // Middleware para que Express pueda leer el JSON enviado desde APEX
 app.use(express.json());
