@@ -17,7 +17,7 @@ app.post('/send-email', async (req, res) => {
   const msg = {
     to: to,
     // CRÍTICO: Debe ser una dirección de remitente verificada en SendGrid
-    from: 'tstgmlprb@gmail.com', 
+    from: 'verawil2404@gmail.com', 
     subject: subject,
     html: htmlBody,
   };
@@ -43,4 +43,5 @@ app.post('/send-email', async (req, res) => {
 
 app.listen(port, () => {
   console.log(`Servicio de correo escuchando en el puerto ${port}`);
+
 });
